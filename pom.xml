@@ -18,10 +18,15 @@
 		</plugins>
 	</build>
 	<dependencies>
-	<dependency>
-		<groupId>io.netty</groupId>
-		<artifactId>netty-all</artifactId>
-		<version>4.0.25.Final</version>
-	</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.0.25.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ning</groupId>
+			<artifactId>async-http-client</artifactId>
+			<version>1.9.11</version>
+		</dependency>
 	</dependencies>
 </project>
